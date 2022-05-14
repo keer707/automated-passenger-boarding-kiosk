@@ -1,0 +1,29 @@
+import os
+import pandas as pd
+from azure.core.exceptions import ResourceNotFoundError
+from azure.ai.formrecognizer import FormRecognizerClient
+from azure.ai.formrecognizer import FormTrainingClient
+from azure.core.credentials import AzureKeyCredential
+from azure.cognitiveservices.vision.face import FaceClient
+from msrest.authentication import CognitiveServicesCredentials
+from azure.cognitiveservices.vision.face.models import TrainingStatusType, Person
+from video_indexer import VideoIndexer
+
+import io
+import asyncio
+import datetime
+import requests
+import glob, sys, time, uuid
+
+from matplotlib.pyplot import imshow
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+from urllib.parse import urlparse
+from io import BytesIO
+from PIL import Image, ImageDraw
+
+from azure.cognitiveservices.vision.customvision.training import CustomVisionTrainingClient
+from azure.cognitiveservices.vision.customvision.prediction import CustomVisionPredictionClient
+from azure.cognitiveservices.vision.customvision.training.models import ImageFileCreateBatch, ImageFileCreateEntry, Region
+from msrest.authentication import ApiKeyCredentials

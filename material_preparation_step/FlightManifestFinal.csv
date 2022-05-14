@@ -1,0 +1,6 @@
+Carrier,Flight No,Class,Gate,Origin,Destination,Date,Time,First Name,Last Name,Sex,SeatNo,DateofBirth,DoBValidation,PersonValidation,LuggageValidation,NameValidation,BoardingPassValidation
+UA,234,E,G1,San Francisco,Chicago,2022-04-20,10:00 AM PST,James,Jackson,M,25B,1956-10-12,True,False,False,True,True
+UA,234,E,G1,San Francisco,Chicago,2022-04-20,10:00 AM PST,Sameer,Kumar,M,34A,1990-01-25,True,False,False,True,True
+UA,234,B,G1,San Francisco,Chicago,2022-04-20,10:00 AM PST,James,Webb,M,1A,1970-12-15,True,False,False,True,True
+UA,234,B,G1,San Francisco,Chicago,2022-04-20,10:00 AM PST,Keerthana,Manoharan,F,7B,1997-09-22,True,True,False,True,True
+UA,234,B,G1,San Francisco,Chicago,2022-04-20,10:00 AM PST,Libby,Herold,F,3D,1996-02-10,True,False,False,True,True
